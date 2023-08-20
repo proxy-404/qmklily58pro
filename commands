@@ -1,0 +1,7 @@
+
+convert from c to json (note this is in the keymap.c dir)
+qmk c2json -km proxy-404 -kb lily58/rev1 keymap.c -o test.json
+
+convert from json to c
+
+qmk json2c lily58pro_proxy.json -o keymap.c
